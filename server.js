@@ -16,7 +16,7 @@ mongoose
     useNewUrlParser: true, //prevents deprecated connection warnings -- optional but better ti put
     useUnifiedTopology: true, // improves monitoring, connection handling n failover behavior -- optional but better to put
   })
-  .then(() => console.log("✅ Connected to MongoDB"))
+  .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("MongoDB Connection Error:", err));
 
 //middleware
