@@ -17,7 +17,7 @@ mongoose
     useUnifiedTopology: true, // improves monitoring, connection handling n failover behavior -- optional but better to put
   })
   .then(() => console.log("✅ Connected to MongoDB"))
-  .catch((err) => console.error("❌ MongoDB Connection Error:", err));
+  .catch((err) => console.error("MongoDB Connection Error:", err));
 
 //middleware
 app.use(express.urlencoded({ extended: true }));
